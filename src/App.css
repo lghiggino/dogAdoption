@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  background-color: transparent;
+  padding: 0.5rem 2rem;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 4rem;
+}
+
+.navbar-ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 3rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-right: 4rem;
+}
+
+.navbar-li-1 {
+  flex-grow: 1;
+  outline: 2px solid red;
+}
+
+.navbar-li-5 {
+  flex-grow: 5;
+  outline: 2px solid green;
+}
+
+.navbar-center-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
